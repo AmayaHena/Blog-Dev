@@ -1,4 +1,7 @@
+const nextConfig = {
+    basePath: "/blog-dev",
+    output: "export",
+    reactStrictMode: true,
+  };
 
-module.exports = {
-    distDir: 'build',
-}
+module.exports = nextConfig;
