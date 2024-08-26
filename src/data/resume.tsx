@@ -10,7 +10,7 @@ export const DATA = {
     "AWS Certified Solutions Architect & Backend Engineer",
   summary:
     "Accomplished Software Engineer with a Master’s from EPITECH Paris and an international stint at Brockport, USA. Adept in Golang, Python, and Cloud architecture, I consistently enhance backend solutions with an eye for efficiency and scalability. Driven by innovation and a pragmatic approach, I bring a track record of substantive contributions to fast-evolving tech environments, focusing on developing systems that are at the forefront of the industry",
-  avatarUrl: "/me.png",
+  avatarUrl: "https://media.licdn.com/dms/image/v2/D4E03AQG8bwNEqZcpAw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724594158059?e=1730332800&v=beta&t=ehSBCjqHZ800_beOBcaxPn6X8jO2wDMmmnvWGzw7bpQ",
   spokenLanguages: [
     "French - Native",
     "English - Fluent",
@@ -99,7 +99,7 @@ export const DATA = {
       badges: ["AWS", "Golang", "Python", "Terraform"],
       location: "Hybrid",
       title: "Backend Engineer & Solutions Architect",
-      logoUrl: "/pfs-logo.png",
+      logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9D5XMxoTW6RCu9WVrFO3hVXNNZy4dw024Aw&s",
       start: "July 2023",
       end: "June 2024",
       description:
@@ -110,7 +110,7 @@ export const DATA = {
       badges: ["AWS", "Python", "Architecture", "Docker"],
       location: "Remote",
       title: "Backend Engineer",
-      logoUrl: "/dalma.png",
+      logoUrl: "https://media.licdn.com/dms/image/v2/C4E0BAQHz-tWaOaG8Kg/company-logo_200_200/company-logo_200_200/0/1640267918307/dalma_assurance_logo?e=2147483647&v=beta&t=aLfzEWV8S43jZdk5BtVDsphQ8pFJtvdJC75k2l0rvyE",
       start: "January 2023",
       end: "June 2023",
       description:
@@ -132,7 +132,7 @@ export const DATA = {
       badges: ["Golang", ".NET", "Architecture"],
       location: "Remote",
       title: "Backend Engineer",
-      logoUrl: "/inovatic_logo.jpeg",
+      logoUrl: "https://media.licdn.com/dms/image/v2/C4E0BAQG1wPZyIG8bBg/company-logo_200_200/company-logo_200_200/0/1630566001714/inovatic_logo?e=2147483647&v=beta&t=jqKc710XacOGN6E1DdUo0zGKmTwSOBqBAJfE1JGBFyE",
       start: "April 2021",
       end: "December 2021",
       description:
@@ -144,19 +144,19 @@ export const DATA = {
       school: "MASTER DEGREE at EPITECH Paris",
       href: "https://www.epitech.eu/programme-grande-ecole-informatique/",
       degree: "PGE Program - In Software Engineering",
-      logoUrl: "/epitechlogo.png"
+      logoUrl: "https://epitech.bj/wp-content/uploads/2020/03/EPI-LOGO-SIGNATURE-2018.png"
     },
     {
       school: "BACHELOR College at Brockport",
       href: "https://www.brockport.edu/",
       degree: "N.Y.S. USA - Computer Science",
-      logoUrl: "/brockport-logo.jpg"
+      logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq6a2jzllKvx_OHAa8kxwI9_tYFsWL4W-yfA&s"
     },
     {
       school: "BACHELOR DEGREE at EPITECH Paris",
       href: "https://www.epitech.eu/programme-grande-ecole-informatique/",
       degree: "PGE Program - In Software Engineering",
-      logoUrl: "/epitechlogo.png"
+      logoUrl: "https://epitech.bj/wp-content/uploads/2020/03/EPI-LOGO-SIGNATURE-2018.png"
     },
     {
       school: "BACCALAUREAT SCIENTIFIC, Paris",
@@ -170,7 +170,7 @@ export const DATA = {
       school: "AWS Solutions Architect",
       href: "https://www.credly.com/badges/e3f8d1d1-c52c-449b-8aa7-8006366ff122/linked_in_profile",
       degree: "Proficiency in AWS architecture and services",
-      logoUrl: "/AWS-Logo.png"
+      logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSR4sWGfuHCmHvYGFZVQvgRWI1CGQMSVVN2g&s"
     },
   ],
   nextCertification: [
@@ -178,7 +178,7 @@ export const DATA = {
       school: "Hashicorp Terraform Associate",
       href: "https://developer.hashicorp.com/certifications/infrastructure-automation",
       degree: "Infrastructure Automation as Code",
-      logoUrl: "/terraform.png"
+      logoUrl: "https://www.svgrepo.com/show/376353/terraform.svg"
     },
   ],
 } as const;
