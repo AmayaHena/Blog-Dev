@@ -2,14 +2,18 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Guillaume LE BERRE",
+  name: "Guillaume",
   initials: "GLB",
-  url: "https://dillion.io", // TODO: Change this to your domain
+  url: "https://www.glb-pro.com/",
   location: "Paris, France",
-  description:
-    "AWS Certified Solutions Architect & Backend Engineer",
-  summary:
-    "Accomplished Software Engineer with a Master’s from EPITECH Paris and an international stint at Brockport, USA. Adept in Golang, Python, and Cloud architecture, I consistently enhance backend solutions with an eye for efficiency and scalability. Driven by innovation and a pragmatic approach, I bring a track record of substantive contributions to fast-evolving tech environments, focusing on developing systems that are at the forefront of the industry",
+  description1:
+    "AWS Solutions Architect",
+    description2:
+      "Backend Engineer",
+  summary1:
+    "Accomplished Software Engineer with a Master’s from EPITECH Paris and an international stint at Brockport, USA.",
+  summary2: "Adept in Golang, Python, and Cloud architecture, I consistently enhance backend solutions with an eye for efficiency and scalability.",
+  summary3: "Driven by innovation and a pragmatic approach, I bring a track record of substantive contributions to fast-evolving tech environments, focusing on developing systems that are at the forefront of the industry.",
   avatarUrl: "https://media.licdn.com/dms/image/v2/D4E03AQG8bwNEqZcpAw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724594158059?e=1730332800&v=beta&t=ehSBCjqHZ800_beOBcaxPn6X8jO2wDMmmnvWGzw7bpQ",
   spokenLanguages: [
     "French - Native",
@@ -60,7 +64,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
-    // { href: "/blog", icon: NotebookIcon, label: "Blog" },
+    { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
     email: "hello@example.com",
@@ -118,7 +122,7 @@ export const DATA = {
     },
     {
       company: "SafeTel",
-      badges: ["AWS", "Golang", "Python", "Architecture"],
+      badges: ["AWS", "Golang", "Python"],
       location: "Remote",
       title: "Backend Engineer",
       logoUrl: "/",
@@ -144,7 +148,7 @@ export const DATA = {
       school: "MASTER DEGREE at EPITECH Paris",
       href: "https://www.epitech.eu/programme-grande-ecole-informatique/",
       degree: "PGE Program - In Software Engineering",
-      logoUrl: "https://epitech.bj/wp-content/uploads/2020/03/EPI-LOGO-SIGNATURE-2018.png"
+      logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsJpKFsqsGunlF3KsE9BwOIaaAz_VeztqEwvAJ9I_BVnAIfZyQj_iSYFngU2sjI6u8UQg&usqp=CAU"
     },
     {
       school: "BACHELOR College at Brockport",
@@ -156,7 +160,7 @@ export const DATA = {
       school: "BACHELOR DEGREE at EPITECH Paris",
       href: "https://www.epitech.eu/programme-grande-ecole-informatique/",
       degree: "PGE Program - In Software Engineering",
-      logoUrl: "https://epitech.bj/wp-content/uploads/2020/03/EPI-LOGO-SIGNATURE-2018.png"
+      logoUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsJpKFsqsGunlF3KsE9BwOIaaAz_VeztqEwvAJ9I_BVnAIfZyQj_iSYFngU2sjI6u8UQg&usqp=CAU"
     },
     {
       school: "BACCALAUREAT SCIENTIFIC, Paris",

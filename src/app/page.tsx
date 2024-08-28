@@ -1,7 +1,5 @@
-import { HackathonCard } from "@/components/hackathon-card";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
-import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { ResumeCardXp } from "@/components/resume-card-xp";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -23,7 +21,7 @@ export default function Page() {
                 delay={BLUR_FADE_DELAY}
                 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none"
                 yOffset={8}
-                text={`Hello 👋`}
+                text={`Hello`}
               />
               <BlurFadeText
                 delay={BLUR_FADE_DELAY}
@@ -45,7 +43,12 @@ export default function Page() {
         <BlurFadeText
           className="max-w-[600px] md:text-xl font-bold"
           delay={BLUR_FADE_DELAY}
-          text={DATA.description}
+          text={DATA.description1}
+        />
+        <BlurFadeText
+          className="max-w-[600px] md:text-xl font-bold"
+          delay={BLUR_FADE_DELAY}
+          text={DATA.description2}
         />
       </section>
       <section id="about">
@@ -55,7 +58,19 @@ export default function Page() {
         <br/>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
           <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-            {DATA.summary}
+            {DATA.summary1}
+          </Markdown>
+        </BlurFade>
+        <br/>
+        <BlurFade delay={BLUR_FADE_DELAY * 4}>
+          <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
+            {DATA.summary2}
+          </Markdown>
+        </BlurFade>
+        <br/>
+        <BlurFade delay={BLUR_FADE_DELAY * 4}>
+          <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
+            {DATA.summary3}
           </Markdown>
         </BlurFade>
         <br/>
@@ -127,7 +142,7 @@ export default function Page() {
         <br/>
         <br/>
         <BlurFade delay={BLUR_FADE_DELAY * 3}>
-          <h2 className="text-xl">Next Ceritification</h2>
+          <h2 className="text-xl">Next Certification</h2>
         </BlurFade>
         <div className="flex min-h-0 flex-col gap-y-3">
           {DATA.nextCertification.map((education, id) => (
