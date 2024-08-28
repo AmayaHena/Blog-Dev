@@ -118,7 +118,7 @@ const BlogPage: React.FC = () => {
         <br/>
         <br/>
         <BlurFade delay={BLUR_FADE_DELAY * 4} className="prose text-m max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-          Whether you're a newcomer or a seasoned professional, I invite you to join me in exploring these topics as I share my journey and learning experiences.
+          Whether you&apos;re a newcomer or a seasoned professional, I invite you to join me in exploring these topics as I share my journey and learning experiences.
         </BlurFade>
         <br/>
         <br/>
@@ -129,6 +129,5 @@ const BlogPage: React.FC = () => {
     </main>
   );
 }
-
 
 export default BlogPage;
