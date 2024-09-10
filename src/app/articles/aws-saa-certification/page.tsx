@@ -59,7 +59,7 @@ const BlogPage: React.FC = () => {
                   href="https://aws.amazon.com/certification/exams/?nc1=h_ls"
                   className="text-blue-500 hover:underline"
               >
-                "Validates the ability to design and implement distributed systems on AWS."
+                &quot;Validates the ability to design and implement distributed systems on AWS.&quot;
               </Link>{" "}
         </BlurFade>
         <br/>
