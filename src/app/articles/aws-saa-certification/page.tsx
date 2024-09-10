@@ -95,7 +95,7 @@ const BlogPage: React.FC = () => {
         This focus reflects a foundational approach to cloud design, ensuring that candidates understand core principles before diving into more complex scenarios.
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4} className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-        It's essential to grasp how traditional architectures function before exploring the intricacies of microservices.
+        It&apos;s essential to grasp how traditional architectures function before exploring the intricacies of microservices.
         </BlurFade>
         <br/>
         <BlurFade delay={BLUR_FADE_DELAY * 4} className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
@@ -115,7 +115,7 @@ const BlogPage: React.FC = () => {
         However, one aspect that some may find disappointing is that the certification emphasizes the knowledge of service usage over hands-on experience.
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4} className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-        While you need to understand which AWS services to apply in various scenarios, the assessment doesn't prioritize hands-on expertise with those services.
+        While you need to understand which AWS services to apply in various scenarios, the assessment doesn&apos;t prioritize hands-on expertise with those services.
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4} className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
         This might leave you feeling less prepared for real-world applications, where practical experience can be just as important as theoretical knowledge.
@@ -241,7 +241,7 @@ const BlogPage: React.FC = () => {
         </BlurFade>
         <br/>
         <BlurFade delay={BLUR_FADE_DELAY * 4} className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-        Theoretical knowledge alone won't cut it. Engage in hands-on labs using the AWS Free Tier.
+        Theoretical knowledge alone won&apos;t cut it. Engage in hands-on labs using the AWS Free Tier.
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4} className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
         Build actual projects, experiment with different services, and get comfortable navigating the console.
@@ -291,14 +291,14 @@ const BlogPage: React.FC = () => {
         </BlurFade>
         <br/>
         <BlurFade delay={BLUR_FADE_DELAY * 4} className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-        By focusing on these strategic insights, you’ll position yourself not just to pass the certification but to become a competent Solutions Architect ready for the challenges ahead.
+        By focusing on these strategic insights, you&apos;ll position yourself not just to pass the certification but to become a competent Solutions Architect ready for the challenges ahead.
         </BlurFade>
         <br/>
         <BlurFade delay={BLUR_FADE_DELAY * 4} className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
         Here are a few examples of the study maps I created myself.
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4} className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-        While they aren't sufficient on their own to guarantee passing the certification, they serve as valuable tools for reinforcing the information.
+        While they aren&apos;t sufficient on their own to guarantee passing the certification, they serve as valuable tools for reinforcing the information.
         </BlurFade>
         <br/>
         <Link href={DATA.EC2Map}>
@@ -323,7 +323,7 @@ const BlogPage: React.FC = () => {
         </BlurFade>
         <br/>
         <BlurFade delay={BLUR_FADE_DELAY * 4} className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-        My own preparation highlighted the importance of combining structured coursework, hands-on practice with AWS, and deep exploration of services. Utilize resources like Stephane Maarek’s courses and AWS's free offerings to build a solid foundation.
+        My own preparation highlighted the importance of combining structured coursework, hands-on practice with AWS, and deep exploration of services. Utilize resources like Stephane Maarek’s courses and AWS&apos;s free offerings to build a solid foundation.
         </BlurFade>
         <br/>
         <BlurFade delay={BLUR_FADE_DELAY * 4} className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
